@@ -4,6 +4,18 @@
     <ProjectReference Include="..\1-Domain\1-Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Appointments\" />
+    <Folder Include="DTOs\Auth\" />
+    <Folder Include="DTOs\HairCuts\" />
+    <Folder Include="DTOs\Users\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\Appointments\" />
+    <Folder Include="Services\Auth\" />
+    <Folder Include="Services\HairCuts\" />
+    <Folder Include="Services\Users\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>_2_Application</RootNamespace>

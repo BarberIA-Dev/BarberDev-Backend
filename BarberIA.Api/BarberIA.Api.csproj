@@ -15,4 +15,10 @@
     <ProjectReference Include="..\3-Infrastructure\3-Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Policies\" />
+  </ItemGroup>
+
 </Project>
